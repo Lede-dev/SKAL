@@ -14,7 +14,7 @@
 # Contents
 ### Events
 - 
-<span color="red">red</span>
+
 ### Conditions
 #### > Ver 1.0.0
 - [Holding sword](#Holding-sword)
