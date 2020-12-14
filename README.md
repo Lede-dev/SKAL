@@ -95,8 +95,8 @@ command /test:
 
 ### Holding axe
 
-```
 > Syntax
+```
 %livingentity% (1¦(held|hold)|2¦(n[ot][ ]held|n[ot][ ]hold)) axe
 ```
 > Description
