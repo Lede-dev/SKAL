@@ -4,7 +4,7 @@
 
 ### Conditions
 #### > Ver 1.0.0
-- [Holding sword](###Holding sword)
+- [Holding sword](#Holding-sword)
 - Holding pickaxe
 - Holding axe
 - Holding shovel
