@@ -275,7 +275,7 @@ command /resetTname:
 
 - ### Cooltime
 
-- Syntax
+> Syntax
 ```
 [the] cool[time] %string%
 ```
@@ -320,7 +320,7 @@ on Damage:
 
 - ### Holding click
 
--> Syntax
+> Syntax
 ```
 [the] h[old][ing][ ]time of %player%
 ```
