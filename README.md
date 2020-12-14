@@ -5,22 +5,22 @@
 ### Conditions
 #### > Ver 1.0.0
 - [Holding sword](#Holding-sword)
-- Holding pickaxe
-- Holding axe
-- Holding shovel
-- holding hoe
-- isCoolSet
+- [Holding pickaxe](#Holding-pickaxe)
+- [Holding axe](#Holding-axe)
+- [Holding shovel](#Holding-shovel)
+- [holding hoe](#Holding-hoe)
+- [isCoolSet](#isCoolSet)
 
 ### Effects
 ##### > Ver 1.0.0
-- Give
+- [Give](#Give)
 
 ### Expressions
 ##### > Ver 1.0.0
-- Display name
-- Tab name
-- Cooltime
-- Holding click
+- [Display name](#Display-name)
+- [Tab name](#Tab-name)
+- [Cooltime](#Cooltime)
+- [Holding click](#Holding-click)
 
 ### Types
 -
