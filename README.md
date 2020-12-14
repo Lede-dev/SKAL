@@ -1,3 +1,16 @@
+#SKAL
+
+### Donate
+> https://www.buymeacoffee.com/Lede
+
+
+### Youtube
+> https://www.youtube.com/channel/UCgwJYHQsbW_cPWfOFXo0XXQ
+
+
+### Discord
+> https://discord.gg/ZZc7fBK
+
 # Contents
 ### Events
 - 
