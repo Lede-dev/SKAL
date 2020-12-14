@@ -45,7 +45,7 @@
 
 ## > Ver 1.0.0
 
-### Holding Sword
+- ### Holding Sword
 
 > Syntax
 ```
