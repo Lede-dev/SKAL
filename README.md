@@ -49,14 +49,16 @@
 ```
 - Syntax
 %livingentity% (1¦(held|hold)|2¦(n[ot][ ]held|n[ot][ ]hold)) sword
-
+```
+```
 - Description
 Check if the item that the player and entity are holding on the main hand is the sword.
 Detects DIAMOND_SWORD, GOLD_SWORD, IRON_SWORD, STONE_SWORD, and WOOD_SWORD.
 
 플레이어및 엔티티가 메인핸드에 들고있는 아이템이 검인지 체크합니다.
 DIAMOND_SWORD, GOLD_SWORD, IRON_SWORD, STONE_SWORD, WOOD_SWORD 를 감지합니다.
-
+```
+```
 - Example
 command /test:
     trigger:
