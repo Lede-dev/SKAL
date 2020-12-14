@@ -69,7 +69,7 @@ command /test:
             send "Not Held Sword"
 ```
 
-### Holding pickaxe
+- ### Holding pickaxe
 
 > Syntax
 ```
@@ -93,7 +93,7 @@ command /test:
             send "Not Held Pickaxe"
 ```
 
-### Holding axe
+- ### Holding axe
 
 > Syntax
 ```
@@ -117,7 +117,7 @@ command /test:
             send "Not Held Axe"
 ```
 
-### Holding shovel
+- ### Holding shovel
 
 > Syntax
 ```
@@ -141,7 +141,7 @@ command /test:
             send "Not Held Shovel"
 ```
 
-### Holding hoe
+- ### Holding hoe
 
 > Syntax
 ```
@@ -165,7 +165,7 @@ command /test:
             send "Not Held Hoe"
 ```
 
-### isCoolSet
+- ### isCoolSet
 
 > Syntax
 ```
@@ -194,7 +194,7 @@ command /test:
 
 ## > Ver 1.0.0
 
-### Give
+- ### Give
 
 > Syntax
 ```
@@ -223,7 +223,7 @@ command /test:
 
 ## > Ver 1.0.0
 
-### Display name
+- ### Display name
 
 > Syntax
 ```
@@ -248,7 +248,7 @@ command /resetDname:
     reset dname of player
 ```
 
-### Tab name
+- ### Tab name
 
 > Syntax
 ```
@@ -273,7 +273,7 @@ command /resetTname:
     reset tname of player
 ```
 
-### Cooltime
+- ### Cooltime
 
 - Syntax
 ```
@@ -318,7 +318,7 @@ on Damage:
         set cool {_name} to 40 #40 ticks
 ```
 
-### Holding click
+- ### Holding click
 
 -> Syntax
 ```
