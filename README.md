@@ -30,9 +30,9 @@
 
 ##### > Ver 1.0.1
 - [Fill](#Fill)
-- [Fill all](#Fill all)
-- [Fill slot](#Fill slot)
-- [Fill all slot](#Fill all slot)
+- [Fill all](#Fill-all)
+- [Fill slot](#Fill-slot)
+- [Fill all slot](#Fill-all-slot)
 
 ### Expressions
 ##### > Ver 1.0.0
