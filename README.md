@@ -245,6 +245,12 @@ command /test:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
         skal fill {_inv} with {_item}
+        
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        sfill {_inv} with {_item}
 ```
 
 
@@ -266,6 +272,12 @@ command /test:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
         skal fill all {_inv} with {_item}
+        
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        sfall {_inv} with {_item}
 ```
 
 - ### Fill slot
@@ -286,6 +298,12 @@ command /test:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
         skal fill slot 0 ~ 10 of {_inv} with {_item}
+
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        sfslot 0 ~ 10 of {_inv} with {_item}
 ```
 
 
@@ -307,6 +325,12 @@ command /test:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
         skal fill all slot 0 ~ 10 of {_inv} with {_item}
+        
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        sfaslot 0 ~ 10 of {_inv} with {_item}
 ```
 
 # Expressions
