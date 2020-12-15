@@ -28,6 +28,12 @@
 ##### > Ver 1.0.0
 - [Give](#Give)
 
+##### > Ver 1.0.1
+- [Fill](#Fill)
+- [Fill all](#Fill all)
+- [Fill slot](#Fill slot)
+- [Fill all slot](#Fill all slot)
+
 ### Expressions
 ##### > Ver 1.0.0
 - [Display name](#Display-name)
@@ -217,6 +223,90 @@ command /test:
     trigger:
         set {_item} to stone sword named "&dTEST2"
         sgive {_item} to player
+```
+
+## > Ver 1.0.1
+
+- ### Fill
+
+> Syntax
+```
+[s][kal][ ]fill %inventory% with %itemstack%
+```
+> Description
+```
+Add items to all slots in the inventory. The existing item remains.
+인벤토리의 모든 슬롯에 아이템을 추가합니다. 기존의 아이템은 남아있습니다.
+```
+> Example
+```
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        skal fill {_inv} with {_item}
+```
+
+
+- ### Fill all
+
+> Syntax
+```
+[s][kal][ ]f[ill][ ]all %inventory% with %itemstack%
+```
+> Description
+```
+Add items to all slots in the inventory. Ignore existing items and overwrite them all.
+인벤토리의 모든 슬롯에 아이템을 추가합니다. 기존 아이템을 무시하고 모두 덮어씌웁니다.
+```
+> Example
+```
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        skal fill all {_inv} with {_item}
+```
+
+- ### Fill slot
+
+> Syntax
+```
+[s][kal][ ]f[ill][ ]slot %integer% (~|to) %integer% of %inventory% with %itemstack%
+```
+> Description
+```
+Populates an item in the specified slot in the inventory. The existing item remains.
+인벤토리의 지정한 슬롯에 아이템을 추가합니다. 기존의 아이템은 남아있습니다.
+```
+> Example
+```
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        skal fill all {_inv} with {_item}
+```
+
+
+- ### Fill all slot
+
+> Syntax
+```
+[s][kal][ ]f[ill][ ]a[ll][ ]slot %integer% (~|to) %integer% of %inventory% with %itemstack%
+```
+> Description
+```
+Populates an item in the specified slot in the inventory. Ignore existing items and overwrite them all.
+인벤토리의 지정한 슬롯에 아이템을 추가합니다. 기존 아이템을 무시하고 모두 덮어씌웁니다.
+```
+> Example
+```
+command /test:
+    trigger:
+        set {_item} to white glass pane named " "
+        set {_inv} to inventory of player
+        skal fill all {_inv} with {_item}
 ```
 
 # Expressions
