@@ -285,7 +285,7 @@ command /test:
     trigger:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
-        skal fill all {_inv} with {_item}
+        skal fill slot 0 ~ 10 of {_inv} with {_item}
 ```
 
 
@@ -306,7 +306,7 @@ command /test:
     trigger:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
-        skal fill all {_inv} with {_item}
+        skal fill all slot 0 ~ 10 of {_inv} with {_item}
 ```
 
 # Expressions
