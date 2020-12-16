@@ -34,12 +34,20 @@
 - [Fill slot](#Fill-slot)
 - [Fill all slot](#Fill-all-slot)
 
+##### > Ver 1.1.0
+- [Knockback](#Knockback)
+- [Grab](#Grab)
+
 ### Expressions
 ##### > Ver 1.0.0
 - [Display name](#Display-name)
 - [Tab name](#Tab-name)
 - [Cooltime](#Cooltime)
 - [Holding click](#Holding-click)
+
+##### > Ver 1.1.0
+- [Attack speed](#Attack-speed)
+- [Attack damage](#Attack-damage)
 
 ### Types
 -
@@ -306,7 +314,6 @@ command /test:
         sfslot 0 ~ 10 of {_inv} with {_item}
 ```
 
-
 - ### Fill all slot
 
 > Syntax
@@ -331,6 +338,40 @@ command /test:
         set {_item} to white glass pane named " "
         set {_inv} to inventory of player
         sfaslot 0 ~ 10 of {_inv} with {_item}
+```
+
+- ### Knockback
+
+> Syntax
+```
+[skal] knockback %entity% from %location% with ([power]|[speed]|[force]) %number%
+```
+> Description
+```
+Knockback entities from location
+좌표로부터 엔티티를 넉백시킵니다.
+```
+> Example
+```
+on right click:
+    knockback targeted entity from location of player with force 1.0
+```
+
+- ### Grab
+
+> Syntax
+```
+[skal] grab %entity% to %location% with ([power]|[speed]|[force]) %number%
+```
+> Description
+```
+Grab entitis to location
+좌표로 엔티티를 끌어당깁니다.
+```
+> Example
+```
+on right click:
+    grab targeted entity to location of player with force 1.0
 ```
 
 # Expressions
@@ -456,6 +497,79 @@ on right click:
     
 on right click:
     send "%htime of player%"
+```
+
+- ### Attack speed
+
+> Syntax
+```
+[the] [s][kal][ ]attack speed of %player%
+```
+> Description
+```
+Set the player's default attack speed.
+플레이어의 기본 공격 속도를 설정합니다.
+
+Notes.
+Default attack speed = Fist attack speed = 4
+If attack speed of diamond sword = 1.6
+Fist - Diamond sword = 2.4
+
+set attack speed to 7
+Fist attack speed = 7
+diamond sword attack speed = 4.6
+Fist - Diamond sword = 2.4
+
+```
+> Example
+```
+command /test:
+    trigger:
+        set {_AtkSpeed} to attack speed of player
+        
+command /test:
+    trigger:
+        add 1 to attack speed of player
+        
+command /test:
+    trigger:
+        remove 1 from attack speed of player
+        
+command /test:
+    trigger:
+        reset attack speed of player
+        delete attack speed of player
+```
+
+- ### Attack damage
+
+> Syntax
+```
+[the] [s][kal][ ]attack damage of %player%
+```
+> Description
+```
+Set the Player's default attack damage
+플레이어의 기본 공격력을 설정합니다.
+```
+> Example
+```
+command /test:
+    trigger:
+        set {_AtkSpeed} to attack damage of player
+        
+command /test:
+    trigger:
+        add 1 to attack damage of player
+        
+command /test:
+    trigger:
+        remove 1 from attack damage of player
+        
+command /test:
+    trigger:
+        reset attack damage of player
+        delete attack damage of player
 ```
 
 # Types
