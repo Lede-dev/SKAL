@@ -379,13 +379,13 @@ on right click:
 
 - ### Glowing
 
-> Required
-```
-GlowAPI, PacketListenerAPI
-```
 > Syntax
 ```
 [skal] glow[ing] %entities% color[ed] %string% (to|for) %players%
+```
+> Required
+```
+GlowAPI, PacketListenerAPI
 ```
 > Description
 ```
