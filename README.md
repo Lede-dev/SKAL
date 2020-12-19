@@ -377,6 +377,8 @@ on right click:
     grab targeted entity to location of player with force 1.0
 ```
 
+## > Ver 1.2.0
+
 - ### Glowing
 
 > Syntax
