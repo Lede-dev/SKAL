@@ -39,7 +39,7 @@
 - [Grab](#Grab)
 
 ##### > Ver 1.2.0
-- [Glowing](#Glowing) !! Required [GlowAPI](#spigotmc.org/resources/api-glowapi.19422/), [PacketListenerAPI](#https://www.spigotmc.org/resources/api-packetlistenerapi.2930/) !!
+- [Glowing](#Glowing) !! Required [GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/), [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/) !!
 
 ### Expressions
 ##### > Ver 1.0.0
