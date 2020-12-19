@@ -38,6 +38,9 @@
 - [Knockback](#Knockback)
 - [Grab](#Grab)
 
+##### > Ver 1.2.0
+- [Glowing](#Glowing) !! Required [GlowAPI](#https://www.spigotmc.org/resources/api-glowapi.19422/), [PacketListenerAPI](#https://www.spigotmc.org/resources/api-packetlistenerapi.2930/) !!
+
 ### Expressions
 ##### > Ver 1.0.0
 - [Display name](#Display-name)
@@ -372,6 +375,49 @@ Grab entitis to location
 ```
 on right click:
     grab targeted entity to location of player with force 1.0
+```
+
+- ### Glowing
+
+> Syntax
+```
+[skal] glow[ing] %entities% color[ed] %string% (to|for) %players%
+```
+> Description
+```
+Add a Glow Effect to an Entity
+엔티티에 발광 효과를 추가합니다.
+
+%string%
+Black: BLACK, &0
+Dark Blue: DARK_BLUE, &1
+Dark Green: DARK_GREEN, &2
+Dark Aqua: DARK_AQUA, &3
+Dark Red: DARK_RED, &4
+Dark Purple: DARK_PURPLE, &5
+Gold: GOLD, &6
+Gray: GRAY, &7
+Dark Gray: DARK_GRAY, &8
+Blue: BLUE, &9
+Green: GREEN, &a
+Aqua: AQUA, &b
+Red: RED, &c
+Purple: PURPLE, &d
+Yellow: YELLOW, &e
+White: WHITE, &f
+None: NONE, OFF, DISABLE
+
+```
+> Example
+```
+on command /test:
+    glow player color "DARK_AQUA" to player
+    
+on command /test:
+    glow player color "&e" to player
+    
+on command /test:
+    glow player color "disable" for player
 ```
 
 # Expressions
