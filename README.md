@@ -387,7 +387,7 @@ on right click:
 ```
 > Required
 ```
-[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/), [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
+GlowAPI, PacketListenerAPI
 ```
 > Description
 ```
