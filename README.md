@@ -627,7 +627,7 @@ command /test:
         delete attack damage of player
 ```
 
-- ### Holding click
+- ### Status
 
 > Syntax
 ```
