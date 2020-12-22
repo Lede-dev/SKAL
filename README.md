@@ -52,6 +52,9 @@
 - [Attack speed](#Attack-speed)
 - [Attack damage](#Attack-damage)
 
+#### > Ver 1.2.0
+- [Status](#Status)
+
 ### Types
 -
 
@@ -622,6 +625,31 @@ command /test:
     trigger:
         reset attack damage of player
         delete attack damage of player
+```
+
+- ### Holding click
+
+> Syntax
+```
+[the] stat[us] %string%
+```
+> Description
+```
+Generate status with a Number value
+Initialize when reloading plugin
+
+Number 값을 갖는 스텟을 생성합니다.
+플러그인 리로드시 초기화됩니다.
+```
+> Example
+```
+command /test:
+    trigger:
+        set "Damage_%player%" to 15.3
+
+on damage:
+    set {_dmg} to stat "Damage_%attacker%"
+    set damage to {_dmg}
 ```
 
 # Types
