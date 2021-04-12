@@ -611,7 +611,7 @@ Set the Player's default attack damage
 ```
 command /test:
     trigger:
-        set {_AtkSpeed} to attack damage of player
+        set {_AtkDamage} to attack damage of player
         
 command /test:
     trigger:
